@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --inline"
+    "dev": "webpack-dev-server --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -34,9 +34,13 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "antd": "^3.7.0",
+    "qs": "^6.5.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
     "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0"
   }
 }
